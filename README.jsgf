@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar system;
+
+<greet> = (здравствуйте|здравствуй|привет|приветствую);
+<represent> = (меня зовут|моё имя|мое имя);
+<representation> = <greet> <represent>;
+<answer>=(Привет!|Приветствую тебя!|Здравствуйте!);
+<status> = (On|Off);
+<link.normal> = (2G|3G|LTE|EDGE);
+<link.simple> = (два джи|три джи);
+<links> = <link.normal>|<link.simple>;
+//
