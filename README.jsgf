@@ -10,4 +10,4 @@ grammar system;
 <link.normal> = (2G|3G|LTE|EDGE);
 <link.simple> = (два джи|три джи);
 <links> = <link.normal>|<link.simple>;
-//
+
